@@ -4,7 +4,7 @@ export default function App() {
   return (
     <Grid.Container gap={2}>
       <Grid sm={12} md={5}>
-        <Card css={{ mw: "330px" }}>
+        <Card css={{ mw: "330px", overflow: "visible" }}>
           <Card.Header>
             <Text b>Card Title</Text>
           </Card.Header>
@@ -27,7 +27,7 @@ export default function App() {
         </Card>
       </Grid>
       <Grid sm={12} md={5}>
-        <Card css={{ mw: "330px" }}>
+        <Card css={{ mw: "330px", overflow: "visible" }}>
           <Card.Header>
             <Text b>Card Title</Text>
           </Card.Header>

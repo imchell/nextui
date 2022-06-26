@@ -6,7 +6,7 @@ export default function App() {
       isPressable
       isHoverable
       variant="bordered"
-      css={{ mw: "400px" }}
+      css={{ mw: "400px", overflow: "visible" }}
     >
       <Card.Body>
         <Text>A pressable card.</Text>

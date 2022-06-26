@@ -2,7 +2,7 @@ const App = `import { Card, Grid, Text, Link } from "@nextui-org/react";
 
 export default function App() {
   return (
-    <Card css={{ p: "$6", mw: "400px" }}>
+    <Card css={{ p: "$6", mw: "400px", overflow: "visible" }}>
       <Card.Header>
         <img
           alt="nextui logo"

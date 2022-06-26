@@ -4,7 +4,7 @@ export default function App() {
   return (
     <Grid.Container gap={2}>
       <Grid xs={4}>
-        <Card>
+        <Card css={{ overflow: "visible" }}>
           <Card.Body>
             <Text>Default card. (shadow)</Text>
           </Card.Body>

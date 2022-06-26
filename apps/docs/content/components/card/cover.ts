@@ -1,7 +1,7 @@
 const Card1 = `import { Card, Col, Text } from "@nextui-org/react";
 
 export const Card1 = () => (
-  <Card>
+  <Card css={{ overflow: "visible" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
@@ -25,7 +25,7 @@ export const Card1 = () => (
 const Card2 = `import { Card, Col, Text } from "@nextui-org/react";
 
 export const Card2 = () => (
-  <Card css={{ w: "100%" }}>
+  <Card css={{ w: "100%", overflow: "visible" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
@@ -49,7 +49,7 @@ export const Card2 = () => (
 const Card3 = `import { Card, Col, Text } from "@nextui-org/react";
 
 export const Card3 = () => (
-  <Card css={{ bg: "$black", w: "100%" }}>
+  <Card css={{ bg: "$black", w: "100%", overflow: "visible" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
@@ -73,7 +73,7 @@ export const Card3 = () => (
 const Card4 = `import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 export const Card4 = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card css={{ w: "100%", h: "400px", overflow: "visible" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
@@ -134,7 +134,7 @@ export const Card4 = () => (
 const Card5 = `import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 export const Card5 = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card css={{ w: "100%", h: "400px", overflow: "visible" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
